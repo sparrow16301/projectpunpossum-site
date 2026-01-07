@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Donate | Project PinPossum</title>
+  <meta name="description" content="Support Project PinPossum through donations or in-kind contributions." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo">🦝</span><span>Project PinPossum</span></a>
+      <button class="navBtn" id="navBtn" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <div class="links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Support the mission</h1>
+      <p class="lead">
+        Donations help cover tools, consumables, replacement parts, and distribution of refurbished systems.
+      </p>
+
+      <div class="grid">
+        <div class="card inset">
+          <h2>Option A: Donation link</h2>
+          <p class="muted">Paste your donation URL below (PayPal, Stripe, Ko-fi, etc.).</p>
+          <a class="btn primary" href="#" id="donateLink" rel="noopener">Donate</a>
+          <p class="fineprint">Edit the link target in <code>script.js</code>.</p>
+        </div>
+
+        <div class="card inset">
+          <h2>Option B: In-kind support</h2>
+          <p class="muted">Hardware, tools, and parts are often more valuable than cash.</p>
+          <ul>
+            <li>Old laptops/desktops (working or not)</li>
+            <li>RAM, SSDs, power supplies, cables</li>
+            <li>Basic electronics tools + consumables</li>
+          </ul>
+          <a class="link" href="contact.html">Offer equipment →</a>
+        </div>
+
+        <div class="card inset">
+          <h2>Transparency</h2>
+          <p class="muted">I’ll post what funds were used for and the outcomes.</p>
+          <ul>
+            <li>Receipts / parts logs</li>
+            <li>Build counts</li>
+            <li>Where systems go</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerInner">
+      <span>© <span id="year"></span> Project PinPossum</span>
+      <span class="muted">Thank you for supporting</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

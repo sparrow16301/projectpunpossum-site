@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project PinPossum Hub</title>
+  <meta name="description" content="Project PinPossum: sustainable tech builds, learning, and affordable computing." />
+  <meta property="og:title" content="Project PinPossum Hub" />
+  <meta property="og:description" content="Sustainable tech builds, learning, and affordable computing." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Project PinPossum Home">
+        <span class="logo">🦝</span>
+        <span>Project PinPossum</span>
+      </a>
+
+      <button class="navBtn" id="navBtn" aria-expanded="false" aria-controls="navLinks">
+        ☰
+      </button>
+
+      <div class="links" id="navLinks">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero card">
+      <div>
+        <h1>Build. Learn. Reuse.</h1>
+        <p class="lead">
+          A hub for sustainable electronics, affordable computing, and teaching through hands-on engineering.
+        </p>
+
+        <div class="ctaRow">
+          <a class="btn primary" href="projects.html">See Projects</a>
+          <a class="btn" href="donate.html">Support the Mission</a>
+        </div>
+
+        <p class="fineprint">
+          Domain: <strong>projectpunpossum.com</strong> (edit text anytime in this file)
+        </p>
+      </div>
+
+      <div class="heroRight">
+        <div class="stat">
+          <div class="statNum" id="buildCount">0</div>
+          <div class="statLabel">Build Logs</div>
+        </div>
+        <div class="stat">
+          <div class="statNum" id="reuseCount">0</div>
+          <div class="statLabel">Reused Parts</div>
+        </div>
+        <div class="stat">
+          <div class="statNum" id="learnCount">0</div>
+          <div class="statLabel">Learning Notes</div>
+        </div>
+        <p class="muted">Tip: these counters are editable in <code>script.js</code>.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>What I’m building</h2>
+        <p>
+          Refurbished and repurposed computing + electronics projects designed for affordability and long-term use.
+        </p>
+        <a class="link" href="projects.html">Browse projects →</a>
+      </article>
+
+      <article class="card">
+        <h2>What I teach</h2>
+        <p>
+          Simple, practical explanations of tools, repair, firmware, and electronics—built from real work.
+        </p>
+        <a class="link" href="projects.html#learning">See learning posts →</a>
+      </article>
+
+      <article class="card">
+        <h2>How to support</h2>
+        <p>
+          Donations and in-kind contributions help cover parts, tools, and distribution to learning spaces.
+        </p>
+        <a class="link" href="donate.html">Go to donations →</a>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Latest update</h2>
+      <p class="muted">Edit this section in <code>index.html</code>.</p>
+      <div class="update">
+        <strong>Update:</strong> Headquarters tour is live. Next: prototype workflow + refurbishment checklist.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerInner">
+      <span>© <span id="year"></span> Project PinPossum</span>
+      <span class="muted">Built for sustainability + learning</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

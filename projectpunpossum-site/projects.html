@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects | Project PinPossum</title>
+  <meta name="description" content="Projects, build logs, and learning posts from Project PinPossum." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo">🦝</span><span>Project PinPossum</span></a>
+      <button class="navBtn" id="navBtn" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <div class="links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Projects</h1>
+      <p class="lead">A simple list now — later you can turn each project into its own page.</p>
+
+      <div class="projectList">
+        <article class="project">
+          <h3>Refurbished Learning PCs</h3>
+          <p class="muted">Goal: affordable computers for learning spaces using reused hardware.</p>
+          <ul>
+            <li>Status: planning</li>
+            <li>What’s next: intake checklist + parts sorting</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <h3>Electronics Learning Kits</h3>
+          <p class="muted">Goal: teach repair + fundamentals with real components and tools.</p>
+          <ul>
+            <li>Status: prototyping</li>
+            <li>What’s next: kit BOM + lesson outline</li>
+          </ul>
+        </article>
+
+        <article class="project" id="learning">
+          <h3>Learning Posts</h3>
+          <p class="muted">Short posts: what I used, what broke, and what I learned.</p>
+          <ul>
+            <li>Bench setup basics</li>
+            <li>Refurb workflow</li>
+            <li>PCB design notes</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Add your next project fast</h2>
+      <p class="muted">
+        Copy one <code>&lt;article class="project"&gt;</code> block above and edit the text.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerInner">
+      <span>© <span id="year"></span> Project PinPossum</span>
+      <span class="muted">Projects • Learning • Sustainability</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
